@@ -1,0 +1,102 @@
+.pokeHeader{
+    width: 100%;
+    background-color: var(--pokemon-red);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokeHeader img{
+    width: 80%;
+    margin: 5rem 0;
+}
+
+nav{
+    width: 100%;
+    padding: 0 0.2rem;
+}
+
+.menu{
+    font-size: 0.8rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+}
+
+.menu a{
+    color: var(--white);
+    text-decoration: none;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.activeLink{
+    text-shadow: 2px 2px 2px black ;
+}
+
+.menu .activeLink::after{
+    content: '';
+    background-color: var(--pokemon-yellow);
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+}
+
+.menu a::after{
+    content: '';
+    background-color: var(--pokemon-yellow);
+    position: absolute;
+    height: 0px;
+    width: 0%;
+    bottom: -10px;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+}
+
+.menu a:hover::after{
+    height: 5px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .pokeHeader img{
+        margin: 7rem 0;
+    }
+
+    .menu a{
+        font-size: 1.75rem;
+    }
+
+    .activeLink{
+        text-shadow: 3px 3px 2px black ;
+    }
+}
+
+@media (min-width: 1024px) {
+    .pokeHeader img{
+        margin: 9rem 0;
+    }
+
+    .menu a{
+        font-size: 2.25rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .pokeHeader img{
+        width: 40%;
+        margin: 5rem 0;
+    }
+
+    .menu{
+        padding: 1rem 5rem 1rem;
+    }
+
+    .menu a{
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --white: rgba(255,255,255,255);
+    --black: rgba(0, 0, 0, 255);
+    --pokemon-bg: rgba(242,242,242,255);
+    --pokemon-red: rgb(255,22,22, 255);
+    --pokemon-yellow: rgb(255,205,2, 255);
+    
+    /* Pokemon-type color */
+    --normal: rgba(168, 168, 120, 1);
+    --fighting: rgba(194, 46, 40, 1);
+    --flying: rgba(137, 168, 229, 1);
+    --poison: rgba(160, 54, 160, 1);
+    --ground: rgba(224, 192, 104, 1);
+    --rock: rgb(184, 133, 56);
+    --bug: rgba(168, 184, 32, 1);
+    --ghost: rgba(112, 88, 152, 1);
+    --steel: rgba(184, 184, 208, 1);
+    --fire: rgba(240, 128, 48, 1);
+    --water: rgba(104, 144, 240, 1);
+    --grass: rgba(120, 200, 80, 1);
+    --electric: rgba(248, 208, 48, 1);
+    --psychic: rgba(248, 88, 136, 1);
+    --ice: rgba(152, 216, 216, 1);
+    --dragon: rgba(112, 56, 248, 1);
+    --dark: rgba(71, 78, 82, 1);
+    --fairy: rgba(238, 153, 172, 1);
+    --stellar: rgba(66, 82, 191, 1);
+    --unknown: rgba(136, 136, 136, 1);
+}

@@ -1,0 +1,122 @@
+@import url('../../utils/utils.css');
+
+.pokemonContainerWrap{
+    height: fit-content;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.5 ));
+    position: relative;
+}
+
+.capturedIcon{
+    width: 10%;
+    position: absolute;
+    z-index: 2;
+}
+
+.capturing{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.pokemonContainer{
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-color: var(--pokemon-bg);
+    clip-path: polygon(15% 0, 100% 0, 100% 85%, 85% 100%, 0 100%, 0 15%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemonContainer p{
+    color: gray;
+    font-weight: bold;
+    align-self: flex-start;
+    padding-left: 2.3rem;
+}
+
+.typesContainer{
+    display: flex;
+    gap: 0.2rem;
+}
+
+.typesContainer div{
+    border-radius: 0.2rem;
+    padding: 0.2rem 0.5rem;
+}
+
+/* Pokemon type color */
+.normal{
+    background-color: var(--normal);
+}
+.fighting{
+    color: var(--white);
+    background-color: var(--fighting);
+}
+.flying{
+    background-color: var(--flying);
+}
+.poison{
+    color: var(--white);
+    background-color: var(--poison);
+}
+.ground{
+    background-color: var(--ground);
+}
+.rock{
+    background-color: var(--rock);
+}
+.bug{
+    color: var(--white);
+    background-color: var(--bug);
+}
+.ghost{
+    color: var(--white);
+    background-color: var(--ghost);
+}
+.steel{
+    background-color: var(--steel);
+}
+.fire{
+    color: var(--white);
+    background-color: var(--fire);
+}
+.water{
+    color: var(--white);
+    background-color: var(--water);
+}
+.grass{
+    background-color: var(--grass);
+}
+.electric{
+    background-color: var(--electric);
+}
+.psychic{
+    color: var(--white);
+    background-color: var(--psychic);
+}
+.ice{
+    background-color: var(--ice);
+}
+.dragon{
+    color: var(--white);
+    background-color: var(--dragon);
+}
+.dark{
+    color: var(--white);
+    background-color: var(--dark);
+}
+.fairy{
+    background-color: var(--fairy);
+}
+.stellar{
+    color: var(--white);
+    background-color: var(--stellar);
+}
+.unknown{
+    background-color: var(--unknown);
+}
+

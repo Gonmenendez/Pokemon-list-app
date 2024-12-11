@@ -1,0 +1,7 @@
+@media (min-width: 1280px) {
+    .bodySection{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+}
