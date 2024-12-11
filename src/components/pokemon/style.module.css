@@ -31,6 +31,10 @@
     align-items: center;
 }
 
+.pokemonContainer img{
+    width: 40%;
+}
+
 .pokemonContainer p{
     color: gray;
     font-weight: bold;
@@ -46,6 +50,13 @@
 .typesContainer div{
     border-radius: 0.2rem;
     padding: 0.2rem 0.5rem;
+}
+
+/* Reponsive */
+@media (min-width: 1280px) {
+    .pokemonContainer img{
+    width: 50%;
+    }
 }
 
 /* Pokemon type color */
