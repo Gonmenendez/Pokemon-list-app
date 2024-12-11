@@ -1,5 +1,5 @@
 // Elements
-import Homepage from "../components/Homepage/Homepage";
+import Homepage from "../components/homepage/Homepage";
 import CapturedPokemons from "../components/capturedPokemons/CapturedPokemons";
 import WildPokemons from "../components/wildPokemons/wildPokemons";
 
