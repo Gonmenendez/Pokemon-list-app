@@ -6,7 +6,7 @@ import { PokemonFindProvider } from "./context/PokemonFindContext"
 import { BrowserRouter } from "react-router-dom"
 
 // Components
-import Header from "./layouts/header/header"
+import Header from "./layouts/header/Header"
 import Body from "./layouts/body/Body"
 import Footer from "./layouts/footer/Footer"
 
