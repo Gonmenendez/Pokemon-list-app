@@ -1,4 +1,7 @@
 .pokemonsContainerWrap{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     width: 100%;
     background-image: url('../../assets/container_bg.png');
     position: relative;
@@ -24,8 +27,8 @@
     font-family: "Press Start 2P", "roboto";
     text-transform: uppercase;
     text-align: center;
-    font-size: 2rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
     letter-spacing: 0.2rem;
     text-shadow: 2px 2px 3px black;
 }
