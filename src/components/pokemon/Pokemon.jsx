@@ -48,7 +48,7 @@ const Pokemon = ({pokemon}) => {
                 )}
                 </div>
             </div>
-            {capturing && <img onClick={handleCapture} className={styles.capturing} src={pokemon.captured ? setFreePokeball : capturingPokeball} alt={pokemon.captured ? 'Set free' : 'Captured'}/>}
+            {capturing && <img className={styles.capturing} src={pokemon.captured ? setFreePokeball : capturingPokeball} alt={pokemon.captured ? 'Set free' : 'Captured'}/>}
         </div>
     )
 }
