@@ -1,7 +1,7 @@
 // Elements
 import Homepage from "../components/homepage/Homepage";
 import CapturedPokemons from "../components/capturedPokemons/CapturedPokemons";
-import WildPokemons from "../components/wildPokemons/wildPokemons";
+import WildPokemons from "../components/wildPokemons/WildPokemons";
 
 export const PUBLIC_ROUTES = [
     {name: "home", path: '/', element: Homepage},
